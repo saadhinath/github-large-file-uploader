@@ -1,0 +1,105 @@
+Title: Advanced AI Assistant (JARVIS-inspired, Full Stack, Voice-Enabled)
+Prompt:
+Create a modular, scalable AI assistant inspired by JARVIS using modern technologies. The system must be practical, secure, and extensible.
+🧠 Core Capabilities
+• Natural language conversation (context-aware, memory-enabled)
+• Voice interaction (speech-to-text + text-to-speech)
+• Task automation (apps, scripts, scheduling, reminders)
+• Smart device control (IoT integration)
+• Data analysis and summarization
+• Basic emotional tone detection (sentiment analysis, not human emotions)
+⚙️ Tech Stack (MANDATORY)
+🧠 Backend (Main Brain)
+• Language: Python
+• Framework: FastAPI
+• Responsibilities: 
+• AI logic (LLM integration via **OpenAI API)
+• Voice processing (speech recognition + TTS)
+• Automation scripts
+• Data processing
+• API endpoints for frontend & devices
+• AI/ML Libraries: 
+• TensorFlow / PyTorch
+• Memory: 
+• Short-term: in-memory cache
+• Long-term: vector database (for semantic recall)
+🌐 Frontend (User Interface)
+• Language: JavaScript
+• Framework: React
+• Features: 
+• Chat interface (like ChatGPT)
+• Dashboard (tasks, devices, alerts)
+• Voice interaction UI
+• Optional 3D/AR-style UI components (WebGL / Three.js)
+🔁 Real-Time Engine
+• Runtime: Node.js
+• Responsibilities: 
+• Real-time communication (WebSockets)
+• Device control (IoT APIs)
+• Event-driven automation
+📱 Mobile Support
+• Language: Kotlin (Android)
+• Features: 
+• Mobile assistant app
+• Voice commands on phone
+• Notifications & alerts
+🔊 Voice System
+• Python-based processing
+• Integrations: 
+• Speech-to-text APIs
+• Text-to-speech engines
+• Optional: Google Assistant SDK (for extended capabilities)
+💾 Database
+• Primary: PostgreSQL
+• Alternative: Firebase
+• Use: 
+• User data
+• Task history
+• Device states
+• Logs
+🧩 Features Breakdown
+🤖 AI & Intelligence
+• Conversational AI via LLM APIs
+• Context tracking per session
+• Memory-based responses
+• Learning user preferences (with permission)
+🎙️ Voice Assistant
+• Wake word detection (“Jarvis”)
+• Continuous listening (optional, user-controlled)
+• Real-time command execution
+🏠 Smart Automation
+• Control: 
+• Lights, fans, AC, doors
+• Integrate with IoT platforms (MQTT, REST APIs)
+🔐 Security System
+• Camera input (optional)
+• Motion detection alerts
+• User-authorized monitoring only
+📊 Data Processing
+• File analysis (PDF, text, logs)
+• Generate summaries, reports
+🧠 Multi-Agent System (Optional)
+• Planner agent (decides tasks)
+• Executor agent (runs commands)
+🕹️ Advanced UI
+• Dashboard + chat
+• Notifications panel
+• Basic 3D visualization (not true holograms)
+⚠️ Constraints (IMPORTANT)
+• No full autonomy without user approval
+• No unauthorized surveillance or tracking
+• All critical actions require confirmation
+• Respect privacy, security, and legal standards
+🎯 Goal
+Build a working prototype AI assistant that:
+• Talks naturally
+• Executes real-world tasks
+• Controls devices
+• Learns user preferences
+• Runs on web + mobile
+📦 Output Required
+• Backend (FastAPI project)
+• Frontend (React app)
+• Voice module
+• API documentation
+• Setup instructions
