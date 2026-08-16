@@ -1,0 +1,77 @@
+==================================================
+       GitHub Easy File Uploader
+==================================================
+
+GitHub repository URL: https://github.com/saadhinath/MyProject.git
+File to upload: /home/kali/Documents/test.apk
+ 1 upload file
+ 2 delete file
+ 3 search profile
+ 4 update/install pakage
+ 0 exit
+ ---------------------------------------------------------------------------
+ // user choose 1 display this
+ --------------------------------------------------------------------------
+ ==================================================
+       GitHub Easy File Uploader
+==================================================
+            UPLOAD FILE
+01 update/install pakage
+02 Start uploading proccess
+----------------------------------------------------
+if choose 01 open terminal automatically run this command one by one:-sudo apt update,//wait for enter the password manually//,then enter
+sudo apt install git-lfs -y,and the last command is git lfs install
+if choose 02 
+eg:/path/to/your/repository
+ask :give the path of your repository:(path1)
+process:open terminal run run the command cd (path)
+//after entering the path//
+ask:path of uploading file:(path2)
+process:copy file and paste on (path1) folder
+//after pasting//
+show all file in (path1) like this
+1 Readme.md
+2 file2.py
+3 file3.html
+4 file4.txt
+5 file5.css
+ etc..
+------------------------------
+select the file you wanted to upload:(eg:2)
+process:on terminal run this command:git add (eg:file2)
+after run  command run this command:git commit -m "(eg:file2)"
+after run the command run this command:git push origin main
+ask:Username:(username)
+process:enter on the terminal the Username for 'https://github.com':(username)
+//after this//
+ask:enter your Personal access tokens:(pass)
+process:enter on the termianl Password for 'https://sadhinath@github.com': 
+(pass)
+$ show the process bar or process meter.
+//after upload successful.Show this "
+✅ File uploaded successfully!"
+-----------------------------------------------------------------
+// User choose 2 display this
+-----------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
